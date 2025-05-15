@@ -60,41 +60,19 @@ Base's near-zero gas fees, compliance-ready environment, and Coinbase's fiat rai
 ---
 
 ## 📊 Why This Matters to Base
+1. Eliminate language and payment barriers for global interaction
+| Metric                   | Traditional Apps     | ROSEN × Base                         | 
+| -------------------------|----------------------|--------------------------------------| 
+| Min. Transfer            | $10+                 | $0.10                                | 
+| Gas Fees                 | $1+ per tx           | $0 (covered by Rosen)                | 
+| Settlement Time          | 1-5 days             | 20 sec                               | 
+| Global Reach             | Single-language      | AI-translated for 50+ languages      | 
 
-Metric
-
-Traditional Apps
-
-ROSEN × Base
-
-Min. Transfer
-
-$5+
-
-$0.10
-
-Gas Fees
-
-$1+ per tx
-
-$0 (sponsored)
-
-Settlement Time
-
-1-5 days
-
-20 sec
-
-Global Reach
-
-Single-language
-
-AI-translated
-
-4. Expands Base's Ecosystem  
+2. Expands Base's Ecosystem  
   - Onboards non-crypto users through social-first experience  
   - Enable every gmail user to a Base user on-chain
-5. Creates New Use Cases  
+    
+3. Creates New Use Cases  
   - Turns global social interactions into economic opportunities with stablecoins on Base (USDC)
 
 
