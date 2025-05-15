@@ -25,21 +25,23 @@ Base's near-zero gas fees, compliance-ready environment, and Coinbase's fiat rai
 
 🌍 Base GPS Social Map
 
+- Email login without web3 jargon, turn every email user to a base node
 - Exclusive NFT avatars for Basenames holders  
 - Real-time location-based discovery of Base community members  
 - "Same-skin" recognition for instant trust connections  
 
 🏙 Base Community Lands
 
-- Dedicated virtual plots for Base ecosystem projects  
+- Dedicated virtual plots for Base ecosystem projects   
 - AI-translated group chats (supports 50+ languages)  
-- USDC rewards for participation in community activities  
+- Gasless USDC rewards for participation in community activities  
 
 💼 Global Talent Hub
 
-- Permissionless ambassador recruitment via in-app DMs  
-- AI-translated chats with in-conversation USDC payments  
-- 100 Coins = 1 USDC (gasless on Base) instant rewards system  
+- Permissionless in-app DMs for a easy and open global talent hub
+- AI-translated chats with in-conversation USDC payments (no gas token needed)  
+- 100 Coins = 1 USDC (gasless on Base) instant rewards system
+- Walletconnect links user's private (non-custodian) wallet for USDC withdrawal in 1 click
 
 
 ---
@@ -130,7 +132,7 @@ Architecture
 
 You can download our App from App Store / Google Play for a quick experience.
 
-And you can also download the Beta Version for new features such as PYUSD supports.
+And you can also download the Beta Version for new features.
 
 ## Build & Run Client
 
