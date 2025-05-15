@@ -48,35 +48,13 @@ Base's near-zero gas fees, compliance-ready environment, and Coinbase's fiat rai
 
 ## ✨ Key Features
 
-Feature
+| Feature                     | Tech Stack                   | Competitive Edge                   |  
+|-----------------------------|------------------------------|------------------------------------|  
+| 1-Click Base Onboarding     | Wallet Abstract + Base RPC   | No seed phrases, just social login |  
+| Gasless Microtransactions   | Batch Transactions           | Send $0.10 USDC easily as a text   |  
+|Cross-border Social Economy  |AI Translation + In-Chat $USDC| Pay global talent in 20 sec        |  
+| Base NFT Avatars            | ERC-6551 + GPS Mapping       | Visual identity of Basename holders|  
 
-Tech Stack
-
-Competitive Edge
-
-1-Click USDC Onboarding
-
-Wallet Abstract + Base RPC
-
-No seed phrases - just social login
-
-Gasless Microtransactions
-
-Batch Transactions
-
-Send $0.10 USDC as easily as a text
-
-Cross-Chain Social Economy
-
-AI Translation + In-Chat USDC
-
-Pay global talent in 20 seconds
-
-Base NFT Avatars
-
-ERC-6551 + GPS Mapping
-
-Visual identity for Basenames holders
 
 
 ---
