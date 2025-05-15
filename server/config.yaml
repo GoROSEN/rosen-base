@@ -1,0 +1,146 @@
+db:
+  driver: postgres
+  conn_str: 'user=postgres dbname=rosen host=192.168.1.201 port=5432 sslmode=disable'
+
+token:
+  token_life: 1h
+  refresh_token_life: 24h
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  password: 1111
+  db: 7
+
+geoip:
+  db: GeoLite2-City.mmdb
+  lang: zh-CN
+
+cors:
+  enable: true
+  allow_origins:
+    - '*'
+  allow_headers: '*'
+
+oss:
+  type: s3
+  endpoint: localhost
+  bucket: rosen-app-dev-public
+  region: 'US West (Oregon) us-west-2'
+  ssl: true
+  presignedDuration: 7200
+  publicRead: true
+
+web:
+  sessionToken: ****************
+  capichaFont: 'comic.ttf'
+
+magick:
+  font: './SourceHanSansSC-Regular.otf'
+
+modules: '*'
+enableCronjob: false
+
+sns:
+  facebook:
+    appId: ****************
+    appSecret: ****************
+    redirectUrl: https://auth.expo.io/@rosen-bridge/rosen
+  twitter:
+  apple:
+    teamId: ****************
+    clientId: com.rosenbridge.rosen
+    serviceId: Rosen
+    keyId: ****************
+    secretFile: ****************.p8
+    redirectUrl: https://www.gorosen.xyz/****************-callback
+
+rosen:
+  vcode: false
+  solana:
+    endpoint: https://api.mainnet-beta.solana.com
+    funder: **************** 
+    unlockPhrase:
+    rateLimit: 25
+  mte:
+    keepalive: 1024
+  energy:
+    decimals: 2
+  wallet:
+    defaultToken:
+      name: usdt
+      chain: solana
+      contractAddress: Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB
+      autoCreate: false
+      decimals: 9
+  ipfs:
+    rpc: 192.168.124.73:5001
+    gateway: https://www.gorosen.xyz/ipfs
+  coin:
+    name: usdt
+    decimals: 6
+  coin2:
+    name: gem
+    decimals: 6
+  chains:
+    - name: ethereum
+      endpoint: https://blockchain.googleapis.com/v1/projects/rosenbridge-****************/locations/us-central1/endpoints/ethereum-holesky/rpc?key=****************
+      funder: **************** 
+      unlockPhrase:
+      gasPrice: 30000000000
+      defaultToken:
+        name: pyusd
+        accountType: usdt
+        contractAddress: 0x6c3ea9036406852006290770BEdFcAbA0e23A0e8
+        autoCreate: false
+        decimals: 6
+      tokens:
+        - name: pyusd
+          accountType: usdt
+          contractAddress: 0x6c3ea9036406852006290770bedfcaba0e23a0e8
+          autoCreate: false
+          decimals: 6
+      defaultNFT:
+        name: ROSEN
+        contractAddress: 0x64fbC2b72Ca08fCA804489Ac459E22e438C5071d
+        # contractAddress: 0x27f14ea24c9b76b0721a41a97f7eebc297223be5
+
+logging:
+  console: true
+  level: "DEBUG"
+  # file: "/tmp/rosen-api.log"
+  # file: "/var/log/rosen-api/rosen-api.log"
+
+rpc:
+  enable: true
+  amqp:
+    host: 127.0.0.1
+    port: 5672
+    user: guest
+    password: guest
+  queues:
+    listen: dev_api_rpc_queue
+    im: dev_im_rpc_queue
+    wm: dev_wm_rpc_queue
+
+notification:
+  production: false
+  smtp:
+    host: smtp.mail.com
+    port: 465
+    user: noreply@mail.com
+    password: ****************
+    from: noreply@mail.com
+    ssl: true
+  apns2:
+    bundleId: com.comp.app
+    cert: /data1/config/apns2.p12
+    jwt:
+      key:
+      id:
+      team:
+  fcm:
+    credentials:
+    apikey: 
+  expo:
+    accessToken:
